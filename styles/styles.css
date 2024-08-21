@@ -6,39 +6,61 @@ body {
 /* Right section styles */
 
 .right-section {
-  padding-left: 90px;
-  padding-right: 220px;
+  margin-top: 470px;
   background-color: #fff;
+}
+.about-me-container {
+  display: inline;
+  text-align: right;
 }
 
 .about-me-profesion {
-  color: black;
+  color: white;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 30px;
   line-height: 17px;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-right: 190px;
 }
 
 .personName {
+  color: white;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 55px;
   line-height: 55px;
-  margin-top: 30px;
+  margin-top: 200px;
+  margin-right: 100px;
 }
 
 .main-section {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 1200px;
+  width: 1180px;
   margin: 40px auto;
 }
 
+.head-section {
+  width: 1180px;
+  position: absolute;
+  height: 425px;
+  background-color: #1e2939;
+  z-index: -1;
+}
+
+.container-section {
+  background-color: white;
+  position: relative;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
 .about-me-section {
-  width: 387px;
+  width: 400px;
   text-align: justify;
 }
 
@@ -46,7 +68,7 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -59,7 +81,7 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 30px;
   line-height: 27px;
   color: #000000;
 }
@@ -78,7 +100,7 @@ ol li,
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   text-decoration-line: underline;
   color: #595959;
@@ -127,7 +149,7 @@ ol li,
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -149,27 +171,35 @@ ol li,
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
 }
 
 /* Sidebar Styles */
 
 .sidebar-section {
-  background-color: #1e2939;
-  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 85px;
+  background-color: #ffffff;
+  width: 450px;
+  border-radius: 1000px;
 }
 
 .sidebar-section img {
-  margin-top: 40px;
+  border-radius: 1000px;
+  margin-top: 50px;
+  width: 300px;
 }
 
 .sidebar-title {
+  margin-top: 60px;
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 27px;
-  color: white;
+  color: black;
 }
 
 .contacts-section,
@@ -178,21 +208,22 @@ ol li,
 .languages-section,
 .hobbies-section {
   margin-left: 40px;
+  width: 300px;
 }
 
 .contacts-section-type {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: black;
   margin-right: 10px;
 }
 
 .contacts-section-value {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #565e6a;
 }
@@ -205,7 +236,7 @@ ol li,
 .sidebar-list span {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: black;
 }
